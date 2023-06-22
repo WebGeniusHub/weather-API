@@ -32,28 +32,28 @@ let weather = {
     document.querySelector('.humidity').innerHTML = 'Humidity: ' + humidity + '%';
     document.querySelector('.wind').innerHTML = speed + ' km/h';
 
-    // Remove error message if it was previously displayed
+   
     const errorMessage = document.querySelector('.error-message');
     if (errorMessage) {
       errorMessage.classList.remove('show');
     }
   },
   displayErrorMessage: function() {
-    // Remove existing error message if it was previously displayed
+    
     const errorMessage = document.querySelector('.error-message');
     if (errorMessage) {
       errorMessage.remove();
     }
 
-    // Create a new error message element
+  
     const errorElement = document.createElement('div');
     errorElement.classList.add('error-message');
     errorElement.textContent = 'The entered city does not exist. Please try again.';
 
-    // Append the error message element to the document body
+    
     document.querySelector('.card').appendChild(errorElement);
 
-    // Show the error message
+    
     errorElement.classList.add('show');
   },
   search: function() {

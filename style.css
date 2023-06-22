@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: #888;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    outline: none;
+}
+
+.card{
+  color: #fff;
+  width: auto;
+  height: auto;
+  background-color: rgb(75, 75, 75);
+  padding: 20px;
+  border-radius: 25px;
+  
+}
+
+.search{
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.country{
+  color: #888;
+  padding-left: 20px;
+}
+
+.citcan{
+  display: flex;
+  align-items: center;
+}
+
+input{
+  padding: 5px 30px;
+  border-radius: 15px;
+  border: 1px solid #44444473;
+}
+
+.btn{
+  background-color: #444;
+  border: none;
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.btn i{
+  color: #fff;
+}
+
+.description{
+  text-transform: capitalize;
+}
+
+#Layer_1{
+  font-size: 30px;
+}
+
+.humidity{
+  display: flex;
+  align-items: center;
+}
+
+.city{
+  font-size: 30px;
+}
+
+.temp{
+  font-size: 20px;
+  padding-bottom: 10px;
+}
